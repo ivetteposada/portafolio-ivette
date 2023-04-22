@@ -1,0 +1,379 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  background-color: black;
+  min-height: 100%;
+  height: auto;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  column-gap: 20px;
+}
+/* Sidebar */
+.flex-column {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  padding: 1rem;
+  background-color: rgb(10, 10, 10);
+  border-right: 1px solid #ddd;
+  padding-left: 25px !important;
+}
+
+.flex-column > h5 {
+  color: white;
+  font-size: 25px;  
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 25px !important;
+}
+
+.nav-link:hover {
+  background-color: gray;
+}
+
+.nav-link:active {
+  background-color: gray;
+}
+
+.nav-item::selection   {
+  background-color: gray;
+}
+
+.nav-tabs {
+  grid-column-start: 2;
+}
+
+.nav-link.active {
+  background-color: black !important;
+}
+
+/* End Sidebar */
+
+
+.title {
+  margin: auto;
+}
+
+.exp,
+.skills {
+  grid-column-start: 2
+}
+
+.page {
+  grid-column-start: 2;
+  display: flex;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+.hard-skills > p {
+  margin-bottom: 0px !important;
+  height: 60px;
+}
+
+.elementP {
+  font-size: 20px;
+  margin-bottom: 0px !important;
+  height: 60px;
+}
+
+.lines > p > p {
+  font-size: 20px;
+  margin-bottom: 0px !important;
+  height: 60px;
+}
+
+
+.lines > p {
+  font-size: 20px;
+  margin-bottom: 0px !important;
+  height: 60px;
+}
+
+.home > p {
+  margin-bottom: 0px !important;
+  height: 60px;
+}
+
+.content-obj > p {
+  margin-bottom: 0px !important;
+  height: 60px;
+}
+
+.git-text {
+  color: gray;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.pink-text {
+  color: deepskyblue;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.white-text {
+  color: white;
+  font-size: 40px;
+}
+
+.green-text {
+  color: green;
+  font-size: 40px;
+}
+
+.green-text-skills {
+  color: green;
+  font-size: 40px !important;
+}
+
+.link {
+  text-decoration: none !important;
+}
+
+.content-obj {
+  margin-left: 45px;
+}
+
+.home, 
+.skills {
+  margin-left: 25px;
+}
+
+@media (max-width: 1380px) and (min-width: 930px) {
+  .pink-text {
+    color: deepskyblue;
+    font-size: 25px;    
+  }
+  
+  .white-text {
+    color: white;
+    font-size: 25px;
+  }
+  
+  .green-text {
+    color: green;
+    font-size: 25px;
+  }
+  
+  .green-text-skills {
+    color: green;
+    font-size: 25px !important;
+  }  
+}
+
+@media (min-width: 768px) and (max-width: 930px) {
+
+  .git-text {    
+    font-size: 12px;   
+  }
+
+  .flex-column > h5 {  
+    font-size: 20px;
+  }
+
+  .nav-link {  
+    font-size: 20px !important;
+  }
+
+  .pink-text {
+    color: deepskyblue;
+    font-size: 20px;    
+  }
+  
+  .white-text {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .green-text {
+    color: green;
+    font-size: 20px;
+  }
+  
+  .green-text-skills {
+    color: green;
+    font-size: 20px !important;
+  }  
+}
+
+@media (max-width: 768px) {
+  .flex-column {
+    display: none !important;
+  }
+
+  .App {
+    grid-template-columns: 100%;
+  }
+
+  .nav-tabs {
+    grid-column-start: 1;    
+  }
+
+  .exp,
+  .skills {
+    grid-column-start: 1;
+    margin-left: 20px;
+  }
+
+  .page {
+    grid-column-start: 1;
+    margin-left: 20px;
+  }
+
+  .content-obj {
+    margin-left: 15px;
+  }
+
+  .lines > p > p {
+    font-size: 16px;  
+    height: 35px;
+    color: floralwhite;
+  }
+
+  .hard-skills > p {
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  .elementP {
+    font-size: 15px;
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  .lines > p > p {
+    font-size: 15px;
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  
+  .lines > p {
+    font-size: 15px;
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  .home > p {
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  .content-obj > p {
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+
+  .flex-column > h5 {  
+    font-size: 15px;
+  }
+
+  .nav-link {  
+    font-size: 15px !important;
+  }
+
+  .pink-text {
+    color: deepskyblue;
+    font-size: 15px;    
+  }
+  
+  .white-text {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .green-text {
+    color: green;
+    font-size: 15px;
+  }
+  
+  .green-text-skills {
+    color: green;
+    font-size: 15px !important;
+  }  
+
+}
+
+@media (max-width: 500px) {  
+  .git-text {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {  
+
+  .lines > p > p {
+    font-size: 12px;  
+    height: 35px;
+    color: floralwhite;
+  }
+
+  .hard-skills > p {
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  .elementP {
+    font-size: 12px;
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  .lines > p > p {
+    font-size: 12px;
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  
+  .lines > p {
+    font-size: 12px;
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  .home > p {
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+  
+  .content-obj > p {
+    margin-bottom: 0px !important;
+    height: 20px;
+  }
+
+  .flex-column > h5 {  
+    font-size: 12px;
+  }
+
+  .nav-link {  
+    font-size: 12px !important;
+  }
+
+  .pink-text {    
+    font-size: 12px;    
+  }
+  
+  .white-text {    
+    font-size: 12px;
+  }
+  
+  .green-text {    
+    font-size: 12px;
+  }
+  
+  .green-text-skills {    
+    font-size: 12px !important;
+  }  
+}
