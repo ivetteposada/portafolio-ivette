@@ -16,47 +16,9 @@ function Footer() {
         <MDBBtn
           floating
           className='m-1'
-          style={{ backgroundColor: '#3b5998' }}
-          href='#!'
-          role='button'
-        >
-          <MDBIcon fab icon='facebook-f' />
-        </MDBBtn>
-
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#55acee' }}
-          href='#!'
-          role='button'
-        >
-          <MDBIcon fab icon='twitter' />
-        </MDBBtn>
-
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#dd4b39' }}
-          href='#!'
-          role='button'
-        >
-          <MDBIcon fab icon='google' />
-        </MDBBtn>
-        <MDBBtn
-          floating
-          className='m-1'
-          style={{ backgroundColor: '#ac2bac' }}
-          href='#!'
-          role='button'
-        >
-          <MDBIcon fab icon='instagram' />
-        </MDBBtn>
-
-        <MDBBtn
-          floating
-          className='m-1'
           style={{ backgroundColor: '#0082ca' }}
-          href='#!'
+          href={`https://www.linkedin.com/in/ivette-posada-61b476123/`} 
+          target='blank'
           role='button'
         >
           <MDBIcon fab icon='linkedin-in' />
@@ -65,9 +27,10 @@ function Footer() {
         <MDBBtn
           floating
           className='m-1'
-          style={{ backgroundColor: '#333333' }}
-          href='#!'
+          style={{ backgroundColor: '#333333' }}          
           role='button'
+          href={`https://github.com/ivetteposada`} 
+          target='blank'
         >
           <MDBIcon fab icon='github' />
         </MDBBtn>

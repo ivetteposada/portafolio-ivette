@@ -11,7 +11,10 @@ return (
           <Nav.Link as={Link} to="/">General</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
+          <Nav.Link as={Link} to="/skills">Hard Skills</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link as={Link} to="/softskills">Soft Skills</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link as={Link} to="/projects">Projects</Nav.Link>

@@ -84,7 +84,7 @@ html, body {
 
 .hard-skills > p {
   margin-bottom: 0px !important;
-  height: 60px;
+  height: 40px;
 }
 
 .elementP {
@@ -94,9 +94,9 @@ html, body {
 }
 
 .lines > p > p {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 0px !important;
-  height: 60px;
+  height: 40px;
 }
 
 
@@ -108,12 +108,12 @@ html, body {
 
 .home > p {
   margin-bottom: 0px !important;
-  height: 60px;
+  height: 40px;
 }
 
 .content-obj > p {
   margin-bottom: 0px !important;
-  height: 60px;
+  height: 40px;
 }
 
 .git-text {
@@ -126,6 +126,7 @@ html, body {
   color: deepskyblue;
   font-size: 40px;
   margin-bottom: 0px;
+  height: 40px;
 }
 
 .white-text {
@@ -141,6 +142,7 @@ html, body {
 .green-text-skills {
   color: green;
   font-size: 40px !important;
+  margin-bottom: 0px !important;
 }
 
 .link {

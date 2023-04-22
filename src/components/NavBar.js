@@ -13,8 +13,11 @@ function NavBar() {
             <Nav.Link eventKey="link-1" as={Link} to="/">General</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link eventKey="link-2" as={Link} to="/skills">Skills</Nav.Link>
+            <Nav.Link eventKey="link-2" as={Link} to="/skills">Hard Skills</Nav.Link>
         </Nav.Item>        
+        <Nav.Item>
+            <Nav.Link eventKey="link-3" as={Link} to="/softskills">Soft Skills</Nav.Link>
+        </Nav.Item>  
         <Nav.Item>
             <Nav.Link eventKey="link-4" as={Link} to="/projects">Projects</Nav.Link>
         </Nav.Item>
