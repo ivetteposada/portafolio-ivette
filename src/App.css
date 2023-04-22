@@ -143,6 +143,7 @@ html, body {
   color: green;
   font-size: 40px !important;
   margin-bottom: 0px !important;
+  height: 40px;
 }
 
 .link {
