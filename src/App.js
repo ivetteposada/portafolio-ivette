@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import {Sidebar} from './components/Sidebar';
 import { Container } from 'react-bootstrap';
 import TypingEffect from './components/TypingEffect';
+import { Footer } from './components/Footer';
 
 function App() {
     return (
@@ -20,7 +21,8 @@ function App() {
             <Route path="/" element={<Home/>} />                                   
             <Route path="/skills" element={<Skills/>} />                          
             <Route path="/projects" element={<Projects/>} /> 
-        </Routes>         
+        </Routes>   
+        <Footer/>
                 
     </div>
     );
